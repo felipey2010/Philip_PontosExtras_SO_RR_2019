@@ -1,4 +1,4 @@
-#Oscilador Crystal  
+# Oscilador Crystal  
 Um oscilador de cristal é um circuito oscilador eletrônico que usa a ressonância mecânica de um cristal vibratório de material piezelétrico para criar um sinal elétrico com uma frequência precisa. Frequentemente, esta frequência é utilizada para controlar o tempo, como nos relógios de pulso de quartzo, para fornecer um sinal de relógio estável para circuitos integrados digitais e para estabilizar frequências para transmissores e receptores de rádio. O tipo mais comum de ressonador piezoelétrico usado é o cristal de quartzo, então os circuitos osciladores incorporando-os ficaram conhecidos como osciladores de cristal, mas outros materiais piezoelétricos, incluindo cerâmicas policristalinas, são usados em circuitos similares.
 
 
