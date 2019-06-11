@@ -1,5 +1,35 @@
+#Oscilador Crystal  
+Um oscilador de cristal é um circuito oscilador eletrônico que usa a ressonância mecânica de um cristal vibratório de material piezelétrico para criar um sinal elétrico com uma frequência precisa. Frequentemente, esta frequência é utilizada para controlar o tempo, como nos relógios de pulso de quartzo, para fornecer um sinal de relógio estável para circuitos integrados digitais e para estabilizar frequências para transmissores e receptores de rádio. O tipo mais comum de ressonador piezoelétrico usado é o cristal de quartzo, então os circuitos osciladores incorporando-os ficaram conhecidos como osciladores de cristal, mas outros materiais piezoelétricos, incluindo cerâmicas policristalinas, são usados em circuitos similares.
+
+
+Algumas Frequências (MHz) e Usos Primários
+4.608 
+Permite divisão inteira para 1024 kHz e divisão binária para freqüências mais baixas que são múltiplos inteiros de 1 Hz. Relógio UART; permite divisão inteira para taxas de transmissão comuns (40 × 115200 baud ou 40 × 96 × 1.200 baud). Freqüência de clock comum do microcontrolador. Freqüência da Unidade de Tempo Mestre (MTU) OCXO do Ônibus Espacial  
+
+10.2300  
+Encontrado em alguns receptores GPS. Igual à taxa de lasagem do sinal GPS P (Y). 10 vezes a taxa de lasagem do sinal C / A de 1,023 MHz. Multiplicado por 154 para obter a frequência L1 de 1575,42 MHz e multiplicado por 120 para obter a frequência L2 de 1227,60 MHz. Disponível como OCXO e TCXO  
+
+10.245 
+Usado em receptores de rádio; mistura-se com freqüência intermediária de 10,7 MHz (IF) produzindo sinal de 455 kHz, um segundo FI comum para rádio FM  
+
+12.000 
+Usado em sistemas USB 1.0 e 2.0 (com precisão de 500 ppm) como relógio de referência para a taxa PHY de velocidade total de 12 Mbit / s ou multiplicado usando um PLL para acionar PHYs de alta velocidade a 480 Mbit/s; relógio comum para microprocessadores Intel 8051; também usado em sistemas de barramento CAN  
+
+16.67 
+Velocidade básica de alguns microcomputadores (relativamente comum na família Motorola 68000); relógio de ônibus; dobrar para 33,33 MHz, quadruplicar para 66,67 MHz, multiplicar por 6 a 100 MHz; Velocidade do clock IOAPIC, metade da frequência de barramento PCI  
+
+24 
+USB de alta velocidade (24 MHz × 20 = 480 Mbit/s); Monitor LCD alguns MCU também fones de ouvido Bluetooth  
+
+48.000 
+encontrado em cartões VGA antigos, USB de alta velocidade (48 MHz × 10 = 480 Mbit/s)  
+
+161.1328 
+Relógio Ethernet de 10 Gigabits, sinal de 66 bits  
 
 
 
-Referência
-https://en.wikipedia.org/wiki/Crystal_oscillator#Commonly_used_crystal_frequencies
+Referência  
+1) O que é um oscilador cristal? -> https://en.wikipedia.org/wiki/Crystal_oscillator#Commonly_used_crystal_frequencies  
+
+2) Frequências de alguns osciladores cristais -> https://en.wikipedia.org/wiki/Crystal_oscillator_frequencies  
